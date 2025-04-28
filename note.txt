@@ -1,0 +1,26 @@
+portfolio-website/
+│
+├── index.html
+├── assets/
+│   ├── images/
+│   │   ├── profile.jpg
+│   │   ├── projects/
+│   │   │   ├── html-project.jpg
+│   │   │   └── css-project.jpg
+│   │   └── icons/
+│   │       └── favicon.ico
+│   └── resume/
+│       └── my-resume.pdf
+│
+└── css/
+    ├── main.css
+    ├── reset.css
+    ├── variables.css
+    ├── layout.css
+    ├── header.css
+    ├── hero.css
+    ├── skills.css
+    ├── projects.css
+    ├── experience.css
+    ├── contact.css
+    └── responsive.css

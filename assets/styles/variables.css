@@ -1,0 +1,32 @@
+/* variables.css - Define color scheme and common variables */
+:root {
+    /* Color Scheme */
+    --primary-color: #8A2BE2; /* Purple */
+    --secondary-color: #333;
+    --text-color: #f4f4f4;
+    --bg-color: #121212;
+    --card-bg: #1e1e1e;
+    
+    /* Typography */
+    --heading-font: 'Poppins', sans-serif;
+    --body-font: 'Poppins', sans-serif;
+    
+    /* Spacing */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 2rem;
+    --spacing-lg: 3rem;
+    --spacing-xl: 5rem;
+    
+    /* Border Radius */
+    --border-radius-sm: 4px;
+    --border-radius-md: 10px;
+    --border-radius-lg: 30px;
+    
+    /* Transitions */
+    --transition: all 0.3s ease;
+    
+    /* Container Width */
+    --container-width: 85%;
+    --container-max-width: 1200px;
+}

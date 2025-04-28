@@ -1,0 +1,56 @@
+/* experience.css - Styles for the experience section */
+.experience {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.experience-items {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.experience-item {
+    display: flex;
+    /* background-color: var(--card-bg); */
+    border-radius: var(--border-radius-md);
+    padding: 25px;
+    transition: var(--transition);
+}
+
+.experience-item:hover {
+    transform: translateX(10px);
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.company-logo {
+    font-size: 30px;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience-content {
+    flex: 1;
+}
+
+.experience-content h3 {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.experience-content ul {
+    list-style-type: disc;
+}
+
+.duration {
+    display: block;
+    font-size: 14px;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}

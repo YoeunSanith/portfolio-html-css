@@ -1,0 +1,60 @@
+/* header.css - Styles for the header and navigation */
+.header {
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* width: 100%; */
+    right: 0;
+    /* padding: 20px 0; */
+    /* background-color: rgba(18, 18, 18, 0.95); */
+    background-color: var(--card-bg);
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+}
+
+.header .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a img {
+    /* font-size: 24px;
+    font-weight: 700; */
+    height: 80px;
+    width: 80px;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 50px;
+}
+
+nav ul li a {
+    font-weight: 500;
+    position: relative;
+    color: var(--text-color);
+    transition: var(--transition);
+}
+
+nav ul li a:after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--primary-color);
+    transition: var(--transition);
+}
+
+nav ul li a:hover:after {
+    width: 100%;
+}

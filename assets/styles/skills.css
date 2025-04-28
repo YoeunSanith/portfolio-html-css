@@ -1,0 +1,27 @@
+/* skills.css - Styles for the skills section */
+.skills {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.skills-icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.skill-icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: var(--primary-color);
+    transition: var(--transition);
+}
+
+.skill-icon:hover {
+    transform: translateY(-10px);
+}
